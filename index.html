@@ -11,143 +11,148 @@
 </head>
 
 <body>
-    <div class="bg-white h-[60px] shadow-xl z-[1] relative">
-        <div class="container mx-auto">
-            <!-- navbar -->
-            <div class="flex items-center justify-between content-center h-[60px] font-sans">
-                <img class="cursor-pointer w-[100px]" src="img/logo.svg" alt="">
-                <div class="flex items-center">
-                    <input id="phone" class="w-[150px] p-2 rounded-md border mr-3" type="text" placeholder="Search....">
-                    <label for="phone"><img class="cursor-pointer" src="img/search.svg" alt=""></label>
+    <div class="w-full">
+        <div class="bg-white h-[60px] shadow-xl z-[1] relative">
+            <div class="container mx-auto">
+                <!-- navbar -->
+                <div class="flex items-center justify-between content-center h-[60px] font-sans">
+                    <img class="cursor-pointer w-[100px]" src="img/logo.svg" alt="">
+                    <div class="flex items-center">
+                        <input id="phone" class="w-[150px] p-2 rounded-md border mr-3" type="text"
+                            placeholder="Search....">
+                        <label for="phone"><img class="cursor-pointer" src="img/search.svg" alt=""></label>
+                    </div>
+                    <div>English | 日本語</div>
+                    <ul class="list-none flex">
+                        <li class="ml-5 cursor-pointer">Sign in</li>
+                        <li class="ml-5 cursor-pointer">|</li>
+                        <li class="ml-5 cursor-pointer">Register</li>
+                        <li class="ml-5 cursor-pointer">|</li>
+                        <li class="ml-5 cursor-pointer">My cart</li>
+                    </ul>
                 </div>
-                <div>English | 日本語</div>
-                <ul class="list-none flex">
-                    <li class="ml-5 cursor-pointer">Sign in</li>
-                    <li class="ml-5 cursor-pointer">|</li>
-                    <li class="ml-5 cursor-pointer">Register</li>
-                    <li class="ml-5 cursor-pointer">|</li>
-                    <li class="ml-5 cursor-pointer">My cart</li>
-                </ul>
+            </div>
+        </div>
+
+        <!-- content -->
+
+        <div class="bg-gray-50 py-12 font-sans">
+            <div class="container flex mx-auto items-center">
+                <div class="#">
+                    <ul class="list-none">
+                        <li>
+                            <button
+                                class="border py-3 bg-white rounded-lg text-lg font-semibold mb-4 mx-auto w-[200px] hover:relative right-2 transition ease-out duration-700 hover:shadow-lg cursor-pointer information">Information</button>
+                        </li>
+                        <li>
+                            <button
+                                class="border py-3 bg-white rounded-lg text-lg font-semibold mb-4 mx-auto w-[200px] hover:relative right-2 transition ease-out duration-700 hover:shadow-lg cursor-pointer howTo">How
+                                to Order</button>
+                        </li>
+                        <li>
+                            <button
+                                class="border py-3 bg-white rounded-lg text-lg font-semibold mb-4 mx-auto w-[200px] hover:relative right-2 transition ease-out duration-700 hover:shadow-lg cursor-pointer">Payment
+                                method</button>
+                        </li>
+                        <li>
+                            <button
+                                class="border py-3 bg-white rounded-lg text-lg font-semibold mb-4 mx-auto w-[200px] hover:relative right-2 transition ease-out duration-700 hover:shadow-lg cursor-pointer">New
+                                arrival</button>
+                        </li>
+                        <li>
+                            <button
+                                class="border py-3 bg-white rounded-lg text-lg font-semibold mb-4 mx-auto w-[200px] hover:relative right-2 transition ease-out duration-700 hover:shadow-lg cursor-pointer">Special
+                                offers</button>
+                        </li>
+                        <li>
+                            <button
+                                class="border py-3 bg-white rounded-lg text-lg font-semibold mb-4 mx-auto w-[200px] hover:relative right-2 transition ease-out duration-700 hover:shadow-lg cursor-pointer">Contact
+                                Us</button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=" w-[700px] h-[450px] border-black border-solid border ml-4 bg-white rounded-lg">
+                    <div class="flex justify-evenly mt-12">
+                        <div class="">
+                            <img class="object-contain h-[250px] w-full mr-4" src="img/Lepidoptera.jpg" alt="">
+                            <div class="mt-10 text-center text-2xl font-semibold">Lepidoptera</div>
+                        </div>
+                        <div class="">
+                            <img class="object-contain h-[250px] w-full" src="img/Giraffa.jpg" alt="">
+                            <div class="mt-10 text-center text-2xl font-semibold">Giraffa</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="flex-auto border-black border-solid border ml-4 h-[450px] overflow-y-auto bg-white rounded-l-lg">
+                    <div class="text-center mt-10 text-2xl font-semibold"> New Arrival</div>
+                    <ul class="mt-10 ml-10 text-lg">
+                        <li>10-Aug-2021</li>
+                        <li>...........</li>
+                        <li>...........</li>
+                        <li>12-Aug-2021</li>
+                        <li>...........</li>
+                        <li>...........</li>
+                        <li>10-Aug-2021</li>
+                        <li>...........</li>
+                        <li>...........</li>
+                        <li>12-Aug-2021</li>
+                        <li>...........</li>
+                        <li>...........</li>
+                        <li>12-Aug-2021</li>
+                    </ul>
+                </div>
+
+                <!-- <div>2</div>
+                <div>3</div> -->
+            </div>
+
+            <div class="box-border bg-white container mx-auto border border-solid border-black mt-4 rounded-lg p-10">
+                <div class="text-2xl font-semibold">
+                    Gallery
+                </div>
+                <div class="flex">
+                    <div class="flex-auto border border-black border-solid w-[285px] h-[285px] mt-4 rounded-lg">
+                        <img class="mt-4 object-contain h-[220px] w-full" src="img/kupu.png" alt="">
+                        <div class="mt-1 text-center text-lg font-semibold">Papilionidae</div>
+                    </div>
+                    <div class="flex-auto border border-black border-solid w-[285px] h-[285px] mt-4 ml-4 rounded-lg">
+                        <img class="mt-4 object-contain h-[220px] w-full" src="img/kupu.png" alt="">
+                        <div class="mt-1 text-center text-lg font-semibold">Lycaenidae</div>
+                    </div>
+                    <div class="flex-auto border border-black border-solid w-[285px] h-[285px] mt-4 ml-4 rounded-lg">
+                        <img class="mt-4 object-contain h-[220px] w-full" src="img/kupu.png" alt="">
+                        <div class="mt-1 text-center text-lg font-semibold">Nymphalidae</div>
+                    </div>
+                    <div class="flex-auto border border-black border-solid w-[285px] h-[285px] mt-4 ml-4 rounded-lg">
+                        <img class="mt-4 object-contain h-[220px] w-full" src="img/kupu.png" alt="">
+                        <div class="mt-1 text-center text-lg font-semibold">Birdwing</div>
+                    </div>
+                </div>
+                <div class="flex mt-4 justify-center">
+                    <button
+                        class="border py-3 bg-white rounded-lg text-lg font-semibold w-[200px]  hover:relative right-2 transition ease-out duration-700 hover:shadow-lg cursor-pointer">MORE
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="font-semibold text-lg text-center mt-12">
+                Copy right 2021-present Wingspan Co., Ltd. All Rights Reserved.
             </div>
         </div>
     </div>
 
-    <!-- content -->
 
-    <div class="bg-gray-50 py-12 font-sans">
-        <div class="container flex mx-auto items-center">
-            <div class="#">
-                <ul class="list-none">
-                    <li>
-                        <button
-                            class="border py-3 bg-white rounded-lg text-lg font-semibold mb-4 mx-auto w-[200px] hover:relative right-2 transition ease-out duration-700 hover:shadow-lg cursor-pointer information">Information</button>
-                    </li>
-                    <li>
-                        <button
-                            class="border py-3 bg-white rounded-lg text-lg font-semibold mb-4 mx-auto w-[200px] hover:relative right-2 transition ease-out duration-700 hover:shadow-lg cursor-pointer">How
-                            to Order</button>
-                    </li>
-                    <li>
-                        <button
-                            class="border py-3 bg-white rounded-lg text-lg font-semibold mb-4 mx-auto w-[200px] hover:relative right-2 transition ease-out duration-700 hover:shadow-lg cursor-pointer">Payment
-                            method</button>
-                    </li>
-                    <li>
-                        <button
-                            class="border py-3 bg-white rounded-lg text-lg font-semibold mb-4 mx-auto w-[200px] hover:relative right-2 transition ease-out duration-700 hover:shadow-lg cursor-pointer">New
-                            arrival</button>
-                    </li>
-                    <li>
-                        <button
-                            class="border py-3 bg-white rounded-lg text-lg font-semibold mb-4 mx-auto w-[200px] hover:relative right-2 transition ease-out duration-700 hover:shadow-lg cursor-pointer">Special
-                            offers</button>
-                    </li>
-                    <li>
-                        <button
-                            class="border py-3 bg-white rounded-lg text-lg font-semibold mb-4 mx-auto w-[200px] hover:relative right-2 transition ease-out duration-700 hover:shadow-lg cursor-pointer">Contact
-                            Us</button>
-                    </li>
-                </ul>
-            </div>
-
-            <div class=" w-[700px] h-[450px] border-black border-solid border ml-4 bg-white rounded-lg">
-                <div class="flex justify-evenly mt-12">
-                    <div class="">
-                        <img class="object-contain h-[250px] w-full mr-4" src="img/Lepidoptera.jpg" alt="">
-                        <div class="mt-10 text-center text-2xl font-semibold">Lepidoptera</div>
-                    </div>
-                    <div class="">
-                        <img class="object-contain h-[250px] w-full" src="img/Giraffa.jpg" alt="">
-                        <div class="mt-10 text-center text-2xl font-semibold">Giraffa</div>
-                    </div>
-                </div>
-            </div>
-
-            <div
-                class="flex-auto border-black border-solid border ml-4 h-[450px] overflow-y-auto bg-white rounded-l-lg">
-                <div class="text-center mt-10 text-2xl font-semibold"> New Arrival</div>
-                <ul class="mt-10 ml-10 text-lg">
-                    <li>10-Aug-2021</li>
-                    <li>...........</li>
-                    <li>...........</li>
-                    <li>12-Aug-2021</li>
-                    <li>...........</li>
-                    <li>...........</li>
-                    <li>10-Aug-2021</li>
-                    <li>...........</li>
-                    <li>...........</li>
-                    <li>12-Aug-2021</li>
-                    <li>...........</li>
-                    <li>...........</li>
-                    <li>12-Aug-2021</li>
-                </ul>
-            </div>
-
-            <!-- <div>2</div>
-            <div>3</div> -->
-        </div>
-
-        <div class="box-border bg-white container mx-auto border border-solid border-black mt-4 rounded-lg p-10">
-            <div class="text-2xl font-semibold">
-                Gallery
-            </div>
-            <div class="flex">
-                <div class="flex-auto border border-black border-solid w-[285px] h-[285px] mt-4 rounded-lg">
-                    <img class="mt-4 object-contain h-[220px] w-full" src="img/kupu.png" alt="">
-                    <div class="mt-1 text-center text-lg font-semibold">Papilionidae</div>
-                </div>
-                <div class="flex-auto border border-black border-solid w-[285px] h-[285px] mt-4 ml-4 rounded-lg">
-                    <img class="mt-4 object-contain h-[220px] w-full" src="img/kupu.png" alt="">
-                    <div class="mt-1 text-center text-lg font-semibold">Lycaenidae</div>
-                </div>
-                <div class="flex-auto border border-black border-solid w-[285px] h-[285px] mt-4 ml-4 rounded-lg">
-                    <img class="mt-4 object-contain h-[220px] w-full" src="img/kupu.png" alt="">
-                    <div class="mt-1 text-center text-lg font-semibold">Nymphalidae</div>
-                </div>
-                <div class="flex-auto border border-black border-solid w-[285px] h-[285px] mt-4 ml-4 rounded-lg">
-                    <img class="mt-4 object-contain h-[220px] w-full" src="img/kupu.png" alt="">
-                    <div class="mt-1 text-center text-lg font-semibold">Birdwing</div>
-                </div>
-            </div>
-            <div class="flex mt-4 justify-center">
-                <button
-                    class="border py-3 bg-white rounded-lg text-lg font-semibold w-[200px]  hover:relative right-2 transition ease-out duration-700 hover:shadow-lg cursor-pointer">MORE
-                </button>
-            </div>
-
-        </div>
-
-        <div class="font-semibold text-lg text-center mt-12">
-            Copy right 2021-present Wingspan Co., Ltd. All Rights Reserved.
-        </div>
-    </div>
-
-    <div class="flex justify-center items-center h-[1188px] w-full bg-black bg-opacity-50 z-[2] absolute top-0 display-information">
-        <div class="w-[1000px] bg-gray-100 rounded-lg relative">
+    <div
+        class="flex justify-center items-center h-[1187px] w-full bg-black bg-opacity-50 z-[2] absolute top-0 display-information py-10">
+        <div class="w-[1000px] bg-gray-100 rounded-lg relative z-[3]">
             <div class="p-6 font-sans text-xl">
                 <div class="text-center text-2xl font-semibold">
                     Information
-                    <img class="absolute right-6 cursor-pointer close" src="img/x.svg" alt="">
+                    <img class="absolute right-6 cursor-pointer close z-[3]" src="img/x.svg" alt="">
                 </div>
                 <div>
                     <br><br>
@@ -169,6 +174,81 @@
                     We do hope you enjoy our website and find what you have been searching.
                     <br><br>
                     Enjoy discovering!
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div
+        class="flex justify-center items-center h-[1187] w-full bg-black bg-opacity-50 z-[4] absolute top-0 display-howTo py-10">
+        <div class="w-[1000px] bg-gray-100 rounded-lg relative">
+            <div class="p-6 font-sans text-xl">
+                <div class="text-center text-2xl font-semibold">
+                    How to Order
+                    <img class="absolute right-6 cursor-pointer close-howTo" src="img/x.svg" alt="">
+                </div>
+                <div>
+                    <br><br>
+                    How to Order
+                    <br><br>
+                    Orders can be made in two ways:
+                    <br>
+                    I. Via Website’s “Cart” system, or
+                    <br>
+                    II. Order via Email
+                    <br><br>
+                    I. Via Website’s “Cart” system
+                    <ol class="m-10">
+                        <li>Please register yourself first before start shopping. (Even if you do not register, you can
+                            still see the products, but unable to place an order)</li>
+                        <li>Please select the species/item and select or input your desired quantity, then click “Add to
+                            cart”</li>
+                        <li>To check out, please click on “My Cart” and select “Place order”
+                            <ul class="m-5">
+                                <li>
+                                    Please note that the minimum order is JPY3000 or around US$30, if the total amount
+                                    of items in your cart is less than the specified amount, you will
+                                    be able to place an order.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>After you place an order, we will send you an invoice to your registered email address,
+                            along with payment instruction. Please wait for us at least within
+                            24 hours to contact you, because we need to confirm the availability of the stocks – We
+                            update the item availability daily. In case the item is not
+                            available or has been ordered by another buyer before you, we will notify you when sending
+                            the invoice. We may offer you alternatives via email.
+                        </li>
+                    </ol>
+                    <br><br>
+                    (NOTE)
+                    <ol class="m-10">
+                        <li>Mounted butterflies are only purchasable by customers within domestic JAPAN. We do not
+                            handle international sales for mounted butterflies due to the
+                            risks involved.</li>
+                        <br><br>
+                        “Price lists.pdf” Updated 19:33 26-August-2021 JST
+                        <br><br>
+                        “Order sheet.docx”
+                        <br><br>
+                        <li>
+                            Please insert the item Number on the Order sheet.
+
+                        </li>
+                        <li>
+                            Once your wish list is filled, please send the “Order sheet.docx” to wingspan@wingspan.jp.
+                            we will send you a quotation to your email including the
+                            payment instruction. Please wait for us at least within 24 hours to contact you, because we
+                            need to confirm the availability of the stocks – We update the
+                            item availability daily. In case the item is not available or has been ordered by another
+                            buyer before you, we will notify you when sending the invoice. We
+                            may offer you alternatives via email
+                        </li>
+                    </ol>
+
                 </div>
             </div>
 
