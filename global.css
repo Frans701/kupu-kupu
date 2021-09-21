@@ -1,12 +1,34 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
 
-.display-information{
+.display-information {
     display: none;
 }
 
-.display-howTo{
+.display-payment {
     display: none;
+}
+
+.display-howTo {
+    display: none;
+}
+
+.borders{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.borders td,
+th {
+    border: 1px solid #000;
+    text-align: left;
+    padding: 8px;
+}
+
+td,
+th {
+    text-align: left;
+    padding: 5px;
 }
