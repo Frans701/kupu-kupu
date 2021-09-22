@@ -1,0 +1,131 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="global.css">
+    </head>
+
+    <body>
+        <div class="w-full main-page h-full font-sans">
+            <div class="bg-white h-[60px] shadow-xl z-[1] relative">
+                <div class="container mx-auto">
+                    <!-- navbar -->
+                    <div class="flex items-center justify-between content-center h-[60px] font-sans">
+                        <a href="index.html"><img class="cursor-pointer w-[100px]" src="img/logo.svg" alt=""></a>
+                        <div class="flex items-center">
+                            <input id="phone" class="w-[150px] p-2 rounded-md border mr-3" type="text"
+                                placeholder="Search....">
+                            <label for="phone"><img class="cursor-pointer" src="img/search.svg" alt=""></label>
+                        </div>
+                        <div>English | 日本語</div>
+                        <ul class="list-none flex">
+                            <li class="ml-5 cursor-pointer">Sign in</li>
+                            <li class="ml-5 cursor-pointer">|</li>
+                            <li class="ml-5 cursor-pointer">Register</li>
+                            <li class="ml-5 cursor-pointer">|</li>
+                            <li class="ml-5 cursor-pointer">My cart</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- content -->
+            <div class="container mx-auto">
+                <div class="w-[200px] p-2 bg-blue-300 mt-12 font-semibold rounded-lg">
+                    <div onclick="papilionidae()"
+                        class="text-black no-underline block py-2 papilionidae cursor-pointer papilionidae text-2xl">
+                        Papilionidae
+                    </div>
+                    <div class="papilionidaes">
+                        <a href="" class="text-black no-underline block py-2">Ornithoptera Troides</a>
+                        <a href="" class="text-black no-underline block py-2">Papilio</a>
+                        <a href="" class="text-black no-underline block py-2">Papilio (Achillides)</a>
+                        <a href="" class="text-black no-underline block py-2">Graphium</a>
+                        <a href="" class="text-black no-underline block py-2">OTH Papilionidae</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container mx-auto">
+                <div class="w-[200px] p-2 bg-blue-300 mt-1 font-semibold rounded-lg">
+                    <div onclick="Nymphalidae()"
+                        class="text-black no-underline block py-2 papilionidae cursor-pointer Nymphalidae text-2xl">
+                        Nymphalidae
+                    </div>
+                    <div class="Nymphalidaes">
+                        <a href="" class="text-black no-underline block py-2">Ornithoptera Troides</a>
+                        <a href="" class="text-black no-underline block py-2">Papilio</a>
+                        <a href="" class="text-black no-underline block py-2">Papilio (Achillides)</a>
+                        <a href="" class="text-black no-underline block py-2">Graphium</a>
+                        <a href="" class="text-black no-underline block py-2">OTH Papilionidae</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mx-auto">
+                <div class="w-[200px] p-2 bg-blue-300 mt-1 font-semibold rounded-lg">
+                    <div onclick="Nymphalidae()"
+                        class="text-black no-underline block py-2 papilionidae cursor-pointer Nymphalidae text-2xl">
+                        Nymphalidae
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mx-auto">
+                <div class="w-[200px] p-2 bg-blue-300 mt-1 font-semibold rounded-lg">
+                    <div onclick="Nymphalidae()"
+                        class="text-black no-underline block py-2 papilionidae cursor-pointer Nymphalidae text-2xl">
+                        Nymphalidae
+                    </div>
+                </div>
+            </div>
+            <div class="container mx-auto">
+                <div class="w-[200px] p-2 bg-blue-300 mt-1 font-semibold rounded-lg">
+                    <div onclick="Nymphalidae()"
+                        class="text-black no-underline block py-2 papilionidae cursor-pointer Nymphalidae text-2xl">
+                        Nymphalidae
+                    </div>
+                </div>
+            </div>
+
+            
+
+
+            <script>
+                let papilionidaes = document.querySelector('.papilionidaes');
+                papilionidaes.style.display = 'none';
+
+                function papilionidae() {
+                    if (papilionidaes.style.display == 'none') {
+                        papilionidaes.style.display = 'block';
+                    } else {
+                        papilionidaes.style.display = 'none';
+                    }
+                }
+
+                let Nymphalidaes = document.querySelector('.Nymphalidaes');
+                Nymphalidaes.style.display = 'none';
+
+                function Nymphalidae() {
+                    if (Nymphalidaes.style.display == 'none') {
+                        Nymphalidaes.style.display = 'block';
+                    } else {
+                        Nymphalidaes.style.display = 'none';
+                    }
+                }
+
+                // document.querySelector('.close-payment').addEventListener('click', function(){
+                //     document.querySelector('.display-payment').style.display = 'none';
+                //     document.querySelector('.main-page').style.position = 'static';
+                // }) ;
+            </script>
+
+    </body>
+
+    </html>

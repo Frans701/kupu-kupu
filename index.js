@@ -28,3 +28,9 @@ document.querySelector('.close-payment').addEventListener('click', function(){
     document.querySelector('.main-page').style.position = 'static';
 }) ;
 
+
+// document.querySelector('.close-payment').addEventListener('click', function(){
+//     document.querySelector('.display-payment').style.display = 'none';
+//     document.querySelector('.main-page').style.position = 'static';
+// }) ;
+
