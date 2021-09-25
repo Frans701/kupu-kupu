@@ -346,14 +346,100 @@
                 </div>
             </div>
 
-            
+            <div class="w-full bg-black bg-opacity-50 absolute top-0 h-screen z-10 flex justify-center items-center chart-preview">
+                <div class="h-[450px] bg-white rounded-lg p-8 flex items-center">
+                    <div class="w-[200px]">
+                        <div class="flex justify-center p-2">
+                            <p class="underline font-normal text-2xl mx-auto">PREVIEW</p>
+                        </div>
+
+                        <div>
+                            <img class="mx-auto w-[170px] p-3"
+                                src="img/Papilionidae/42a5ced2-04ea-4b08-80a2-b5db6a0cac6b.jpg" alt="">
+                        </div>
+                        <div>
+                            <img class="mx-auto w-[170px] p-3"
+                                src="img/Papilionidae/698173f4-43a5-4277-8084-a72fdc7e03db.jpg" alt="">
+                        </div>
+
+
+                    </div>
+                    <div class="px-3">
+                        <table cellspacing="0">
+                            <tr>
+                                <th class="p-2 border-0 bg-gray-100">Latin name: </th>
+                                <th class="p-2 border-0 bg-gray-100">:</th>
+                                <td class="p-2 border border-solid border-gray-200 pr-[120px]">Papilio oenomaus</td>
+                            </tr>
+                            <tr>
+                                <th class="p-2 border-0 bg-gray-100">Japanese name: </th>
+                                <th class="p-2 border-0 bg-gray-100">:</th>
+                                <td class="p-2 border border-solid border-gray-200 pr-[120px]">チモールアゲハ</td>
+                            </tr>
+                            <tr>
+                                <th class="p-2 border-0 bg-gray-100">Origin: </th>
+                                <th class="p-2 border-0 bg-gray-100">:</th>
+                                <td class="p-2 border border-solid border-gray-200 pr-[120px]">Timor</td>
+                            </tr>
+                        </table>
+                        <div class="font-medium mt-5">
+                            Available stocks:
+                        </div>
+                        <div class="mt-10 font-medium">
+                            MALE♂
+                        </div>
+                        <div class="flex font-medium content-center items-center">
+                            <div class="py-2">
+                                A
+                            </div>
+                            <div class="p-2">
+                                US$7.50
+                            </div>
+                            <div class="p-2">
+                                <button class="w-[20px] h-[20px] border-[1px] rounded-full type=">-</button>
+                            </div>
+                            <div class="p-2">
+                                <input class="w-[50px] h-[30px]" type="text">
+                            </div>
+                            <div class="p-2">
+                                <button class="w-[20px] h-[20px] border-[1px] rounded-full type=">+</button>
+                            </div>
+                            <div class="border-[1px] p-2 border-solid rounded-lg">
+                                Add to Cart
+                            </div>
+                        </div>
+                        <div class="mt-10 font-medium">
+                            FEMALE
+                        </div>
+                        <div class="flex font-medium content-center items-center">
+                            <div class="py-2">
+                                A
+                            </div>
+                            <div class="p-2">
+                                US$7.50
+                            </div>
+                            <div class="p-2">
+                                <button class="w-[20px] h-[20px] border-[1px] rounded-full type=">-</button>
+                            </div>
+                            <div class="p-2">
+                                <input class="w-[50px] h-[30px]" type="text">
+                            </div>
+                            <div class="p-2">
+                                <button class="w-[20px] h-[20px] border-[1px] rounded-full type=">+</button>
+                            </div>
+                            <div class="border-[1px] p-2 border-solid rounded-lg">
+                                Add to Cart
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
 
         </div>
-    <div class="w-full bg-black bg-opacity-50 absolute top-0 h-screen z-10">
-                    
-                    
-                </div>
-        </div>
+
 
         <script>
             let papilionidaes = document.querySelector('.papilionidaes');
@@ -364,8 +450,20 @@
             preview.style.display = 'none';
             let tables = document.querySelector('.tables');
             let main_page = document.querySelector('.main-page');
+            let chart_preview = document.querySelector('.chart-preview');
+            let chart = document.querySelector('.chart');
+
+            chart_preview.style.display = 'none';
 
 
+
+            chart.addEventListener('click', function(){
+                if (chart_preview.style.display == 'none') {
+                    chart_preview.style.display = 'flex';
+                } else {
+                    chart_preview.style.display = 'none';
+                }
+            });
 
 
             function papilionidae() {
