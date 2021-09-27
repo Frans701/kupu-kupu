@@ -126,6 +126,37 @@
                             <th class="py-2 px-[16.5px] text-center">A2B</th>
                         </tr>
                         <tr class="hover:bg-gray-400 cursor-pointer tables">
+                            <td>Pap001
+                                <div
+                                    class="bg-blue-200 w-[380px] h-[200px] absolute ml-[200px] rounded-lg preview">
+                                    <div class="text-center pt-5 underline font-medium chart">
+                                        PREVIEW OF MOUNTED SPECIMENS
+                                    </div>
+                                    <div class="flex justify-center">
+                                        <img src="img/Papilionidae/217711214_10221476978213986_4519123221846104725_n.jpg"
+                                            alt="" class="w-[130px] p-3">
+                                        <img src="img/Papilionidae/566800a1-4343-479f-90bd-625ad8ba1e89.jpg" alt=""
+                                            class="w-[130px] p-3">
+                                    </div>
+
+                                </div>
+                            </td>
+                            <td>Papilio oenomaus</td>
+                            <td>Timor</td>
+                            <td>7,5</td>
+                            <td></td>
+                            <td>2</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
                             <td>Pap001</td>
                             <td>Papilio oenomaus</td>
                             <td>Timor</td>
@@ -141,9 +172,12 @@
                             <td></td>
                             <td></td>
                             <td></td>
-                            <div
-                                class="bg-blue-200 w-[380px] h-[200px] absolute buttom-0 ml-[200px] mt-[100px] rounded-lg preview">
-                                <div class="text-center pt-5 underline font-medium chart">
+                        </tr>
+                        <tr class="hover:bg-gray-400 cursor-pointer tables003">
+                            <td>Pap003  
+                                <div
+                                class="bg-blue-200 w-[380px] h-[200px] absolute ml-[200px] rounded-lg preview003">
+                                <div class="text-center pt-5 underline font-medium chart003">
                                     PREVIEW OF MOUNTED SPECIMENS
                                 </div>
                                 <div class="flex justify-center">
@@ -154,26 +188,7 @@
                                 </div>
 
                             </div>
-                        </tr>
-                        <tr>
-                            <td>Pap001</td>
-                            <td>Papilio oenomaus</td>
-                            <td>Timor</td>
-                            <td>7,5</td>
-                            <td></td>
-                            <td>2</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Pap001</td>
+                            </td>
                             <td>Papilio oenomaus</td>
                             <td>Timor</td>
                             <td>7,5</td>
@@ -346,9 +361,11 @@
                 </div>
             </div>
 
-            <div class="w-full bg-black bg-opacity-50 absolute top-0 h-screen z-10 flex justify-center items-center chart-preview">
-                <div class="h-[450px] bg-white rounded-lg p-8 flex items-center">
+            <div
+                class="w-full bg-black bg-opacity-50 absolute top-0 h-screen z-10 flex justify-center items-center chart-preview">
+                <div class="h-[450px] bg-white rounded-lg p-8 flex items-center relative">
                     <div class="w-[200px]">
+                        <img class="w-[35px] absolute right-4 top-4 cursor-pointer close z-[3]" src="img/x.svg" alt="">
                         <div class="flex justify-center p-2">
                             <p class="underline font-normal text-2xl mx-auto">PREVIEW</p>
                         </div>
@@ -452,12 +469,15 @@
             let main_page = document.querySelector('.main-page');
             let chart_preview = document.querySelector('.chart-preview');
             let chart = document.querySelector('.chart');
+            let close = document.querySelector('.close');
+
+
 
             chart_preview.style.display = 'none';
 
 
 
-            chart.addEventListener('click', function(){
+            chart.addEventListener('click', function () {
                 if (chart_preview.style.display == 'none') {
                     chart_preview.style.display = 'flex';
                 } else {
@@ -487,13 +507,55 @@
             }
 
             tables.addEventListener('mouseover', function () {
-                preview.style.display = 'block';
+                preview.style.display = 'inline-block';
             });
 
-            // document.querySelector('.close-payment').addEventListener('click', function(){
-            //     document.querySelector('.display-payment').style.display = 'none';
-            //     document.querySelector('.main-page').style.position = 'static';
-            // }) ;
+            tables.addEventListener('mouseleave', function () {
+                preview.style.display = 'none';
+            });
+
+            preview.addEventListener('mouseover', function () {
+                preview.style.display = 'inline-block';
+            });
+
+            preview.addEventListener('mouseleave', function () {
+                preview.style.display = 'none';
+            });
+
+            close.addEventListener('click', () => {
+                chart_preview.style.display = 'none';
+            })
+
+            // tables.addEventListener('click', () => {
+            //     chart_preview.style.display = 'flex';
+            // })
+
+
+
+
+
+
+            //contoh
+            let tables003 = document.querySelector('.tables003');
+            let preview003 = document.querySelector('.preview003');
+
+            preview003.style.display = 'none';
+            
+
+            tables003.addEventListener('mouseover', function () {
+                preview003.style.display = 'inline-block';
+            });
+
+            tables003.addEventListener('mouseleave', function () {
+                preview003.style.display = 'none';
+            });
+
+            tables003.addEventListener('click', () => {
+                chart_preview003.style.display = 'none';
+            })
+
+
+
         </script>
 
     </body>
