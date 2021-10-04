@@ -3,7 +3,11 @@ module.exports = {
   purge: ['index.html', 'Lepidoptera.html', 'Papilionidae.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'img-footer': "url('./img/footer.png')"
+      }
+    },
   },
   variants: {
     extend: {},

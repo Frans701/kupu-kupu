@@ -27,9 +27,6 @@
         max-width: 1536px
     }
 }
-.static {
-    position: static
-}
 .absolute {
     position: absolute
 }
@@ -45,17 +42,14 @@
 .right-6 {
     right: 1.5rem
 }
-.right-0 {
-    right: 0px
-}
-.top-2 {
-    top: 0.5rem
+.right-4 {
+    right: 1rem
 }
 .top-4 {
     top: 1rem
 }
-.right-4 {
-    right: 1rem
+.bottom-0 {
+    bottom: 0px
 }
 .z-\[1\] {
     z-index: 1
@@ -128,17 +122,53 @@
 .ml-\[200px\] {
     margin-left: 200px
 }
-.mt-\[90px\] {
-    margin-top: 90px
-}
 .mt-5 {
     margin-top: 1.25rem
+}
+.mt-\[217px\] {
+    margin-top: 217px
+}
+.mt-\[93px\] {
+    margin-top: 93px
+}
+.mt-\[58px\] {
+    margin-top: 58px
+}
+.mt-\[20px\] {
+    margin-top: 20px
+}
+.mt-\[29px\] {
+    margin-top: 29px
+}
+.mt-\[19px\] {
+    margin-top: 19px
+}
+.mt-\[18px\] {
+    margin-top: 18px
+}
+.mt-\[10px\] {
+    margin-top: 10px
 }
 .mt-\[80px\] {
     margin-top: 80px
 }
-.mt-\[100px\] {
-    margin-top: 100px
+.mt-\[81px\] {
+    margin-top: 81px
+}
+.mt-\[82px\] {
+    margin-top: 82px
+}
+.mt-\[83px\] {
+    margin-top: 83px
+}
+.mt-\[84px\] {
+    margin-top: 84px
+}
+.mt-\[38px\] {
+    margin-top: 38px
+}
+.mt-\[48px\] {
+    margin-top: 48px
 }
 .box-border {
     box-sizing: border-box
@@ -154,9 +184,6 @@
 }
 .table {
     display: table
-}
-.hidden {
-    display: none
 }
 .h-\[60px\] {
     height: 60px
@@ -194,6 +221,9 @@
 .h-\[30px\] {
     height: 30px
 }
+.h-\[379px\] {
+    height: 379px
+}
 .w-full {
     width: 100%
 }
@@ -230,6 +260,9 @@
 .w-\[130px\] {
     width: 130px
 }
+.w-\[35px\] {
+    width: 35px
+}
 .w-\[170px\] {
     width: 170px
 }
@@ -238,15 +271,6 @@
 }
 .w-\[50px\] {
     width: 50px
-}
-.w-1 {
-    width: 0.25rem
-}
-.w-\[40px\] {
-    width: 40px
-}
-.w-\[35px\] {
-    width: 35px
 }
 .flex-auto {
     flex: 1 1 auto
@@ -345,6 +369,9 @@
 .bg-opacity-50 {
     --tw-bg-opacity: 0.5
 }
+.bg-img-footer {
+    background-image: url('./img/footer.png')
+}
 .object-contain {
     -o-object-fit: contain;
        object-fit: contain
@@ -404,6 +431,9 @@
 .pr-\[120px\] {
     padding-right: 120px
 }
+.pt-12 {
+    padding-top: 3rem
+}
 .text-center {
     text-align: center
 }
@@ -421,6 +451,26 @@
 .text-\[20px\] {
     font-size: 20px
 }
+.text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem
+}
+.text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem
+}
+.text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem
+}
+.text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem
+}
+.text-base {
+    font-size: 1rem;
+    line-height: 1.5rem
+}
 .font-semibold {
     font-weight: 600
 }
@@ -436,6 +486,10 @@
 .text-black {
     --tw-text-opacity: 1;
     color: rgba(0, 0, 0, var(--tw-text-opacity))
+}
+.text-white {
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity))
 }
 .underline {
     text-decoration: underline
