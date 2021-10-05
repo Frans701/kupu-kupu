@@ -37,13 +37,13 @@
 
     <!-- content -->
 
-    <div class="bg-gray pt-12 font-sans">
+    <div class="bg-gray py-12 font-sans w-full">
         <div class="bg-white w-full h-screen">
             <div class="container mx-auto">
                 <div class="flex justify-between">
                     <div>
                         <button
-                            class="border py-3 bg-gray-300 border-none font-semibold mx-auto w-[100px] duration-500 cursor-pointer">Sort
+                            class="border py-3 bg-gray-300 border-none font-semibold mx-auto w-[100px] duration-500 cursor-pointer sorts">Sort
                             By
                             <div class="w-[12px] h-[12px] bg-black inline-block ml-1">
                             </div></button>
@@ -51,10 +51,88 @@
                             placeholder="Search....">
                     </div>
                     <div>
-                        <button
-                            class="border bg-gray-300 border-none text-base font-semibold mx-auto w-[180px] duration-500 p-5 cursor-pointer">OUR
-                            TOP PICK</button>
+                        <a href="our_top_pick.html"><button
+                                class="border bg-gray-300 border-none text-base font-semibold mx-auto w-[180px] duration-500 p-5 cursor-pointer">OUR
+                                TOP PICK</button>
+                        </a>
                     </div>
+                </div>
+                <div class="w-[350px] bg-gray-300 p-7 absolute top-24 sort">
+                    <div>
+                        <div
+                            class="border bg-gray-300 border-none font-semibold mx-auto duration-500 cursor-pointer mb-3">
+                            Sort
+                            By
+                            <div class="w-[12px] h-[12px] bg-black inline-block ml-1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-[14px] ml-4">
+                        sort by entomology classification
+                    </div>
+                    <div class="flex justify-between">
+                        <div>
+                            <div class="mt-5">
+                                <div class="sortss inline"><input type="checkbox"></div>
+                                <label for="">lepidoptera</label>
+                            </div>
+                            <div class="mt-2">
+                                <input type="checkbox">
+                                <label for="">test</label>
+                            </div>
+                            <div class="mt-2">
+                                <input type="checkbox">
+                                <label for="">test</label>
+                            </div>
+                            <div class="mt-2">
+                                <input type="checkbox">
+                                <label for="">test</label>
+                            </div>
+                            <div class="mt-2">
+                                <input type="checkbox">
+                                <label for="">test</label>
+                            </div>
+                            <div class="mt-2">
+                                <input type="checkbox">
+                                <label for="">test</label>
+                            </div>
+                            <div class="mt-2">
+                                <input type="checkbox">
+                                <label for="">test</label>
+                            </div>
+                        </div>
+                        <div class="mr-[100px] sortsss">
+                            <div class="mt-5">
+                                <input type="checkbox">
+                                <label for="">lepidoptera</label>
+                            </div>
+                            <div class="mt-2">
+                                <input type="checkbox">
+                                <label for="">test</label>
+                            </div>
+                            <div class="mt-2">
+                                <input type="checkbox">
+                                <label for="">test</label>
+                            </div>
+                            <div class="mt-2">
+                                <input type="checkbox">
+                                <label for="">test</label>
+                            </div>
+                            <div class="mt-2">
+                                <input type="checkbox">
+                                <label for="">test</label>
+                            </div>
+                            <div class="mt-2">
+                                <input type="checkbox">
+                                <label for="">test</label>
+                            </div>
+                            <div class="mt-2">
+                                <input type="checkbox">
+                                <label for="">test</label>
+                            </div>
+                        </div>
+                    </div>
+
 
                 </div>
                 <div class="flex justify-between mt-12 flex-wrap">
@@ -99,7 +177,24 @@
 
 
 
-    <script src="index.js"></script>
+    <script>
+        const sort = document.querySelector('.sort');
+        const sorts = document.querySelector('.sorts');
+        const sortss = document.querySelector('.sortss');
+        const sortsss = document.querySelector('.sortsss');
+        sort.style.display = 'none';
+        sortsss.style.display = 'none';
+
+        sorts.addEventListener('click', () =>{
+            sort.style.display = 'block';
+        });
+
+        sortss.addEventListener('click', () =>{
+            sortsss.style.display = 'block';
+        });
+
+        
+    </script>
 
 </body>
 

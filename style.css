@@ -51,6 +51,36 @@
 .top-4 {
     top: 1rem
 }
+.top-12 {
+    top: 3rem
+}
+.top-\[12\] {
+    top: 12
+}
+.top-\[120\] {
+    top: 120
+}
+.top-\[0\] {
+    top: 0
+}
+.top-11 {
+    top: 2.75rem
+}
+.top-20 {
+    top: 5rem
+}
+.top-40 {
+    top: 10rem
+}
+.top-36 {
+    top: 9rem
+}
+.top-28 {
+    top: 7rem
+}
+.top-24 {
+    top: 6rem
+}
 .z-\[1\] {
     z-index: 1
 }
@@ -143,6 +173,42 @@
 .ml-1 {
     margin-left: 0.25rem
 }
+.mt-2 {
+    margin-top: 0.5rem
+}
+.mr-\[20px\] {
+    margin-right: 20px
+}
+.mr-\[200px\] {
+    margin-right: 200px
+}
+.mr-\[40px\] {
+    margin-right: 40px
+}
+.ml-\[40px\] {
+    margin-left: 40px
+}
+.mr-\[50px\] {
+    margin-right: 50px
+}
+.mr-\[60px\] {
+    margin-right: 60px
+}
+.mr-\[70px\] {
+    margin-right: 70px
+}
+.mr-\[80px\] {
+    margin-right: 80px
+}
+.mr-\[90px\] {
+    margin-right: 90px
+}
+.mr-\[100px\] {
+    margin-right: 100px
+}
+.mb-3 {
+    margin-bottom: 0.75rem
+}
 .box-border {
     box-sizing: border-box
 }
@@ -151,6 +217,9 @@
 }
 .inline-block {
     display: inline-block
+}
+.inline {
+    display: inline
 }
 .flex {
     display: flex
@@ -199,6 +268,9 @@
 }
 .h-\[12px\] {
     height: 12px
+}
+.h-\[350px\] {
+    height: 350px
 }
 .w-full {
     width: 100%
@@ -253,6 +325,9 @@
 }
 .w-\[180px\] {
     width: 180px
+}
+.w-\[350px\] {
+    width: 350px
 }
 .w-\[300px\] {
     width: 300px
@@ -395,6 +470,9 @@
 .p-5 {
     padding: 1.25rem
 }
+.p-7 {
+    padding: 1.75rem
+}
 .py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem
@@ -455,6 +533,9 @@
 }
 .text-\[20px\] {
     font-size: 20px
+}
+.text-\[14px\] {
+    font-size: 14px
 }
 .font-semibold {
     font-weight: 600
