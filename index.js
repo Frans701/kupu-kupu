@@ -1,3 +1,7 @@
+const papilionidae_new = document.querySelector('.papilionidae-new');
+const papilionidae_preview = document.querySelector('.papilionidae-preview');
+
+
 document.querySelector('.information').addEventListener('click', function(){
     document.querySelector('.display-information').style.display = 'flex';
     document.querySelector('.main-page').style.position = 'fixed';
@@ -28,9 +32,14 @@ document.querySelector('.close-payment').addEventListener('click', function(){
     document.querySelector('.main-page').style.position = 'static';
 }) ;
 
+papilionidae_preview.style.display = 'none';
 
-// document.querySelector('.close-payment').addEventListener('click', function(){
-//     document.querySelector('.display-payment').style.display = 'none';
-//     document.querySelector('.main-page').style.position = 'static';
-// }) ;
+papilionidae_new.addEventListener('mouseover', () =>{
+    papilionidae_preview.style.display = 'block';
+})
+
+document.querySelector('.new').addEventListener('mouseover', function(){
+    papilionidae_preview.style.display = 'none';
+}) ;
+
 

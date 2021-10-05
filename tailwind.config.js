@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'img-footer': "url('./img/footer.png')"
+        'img-footer': "url('./img/footer.png')",
+        'marmer': "url('./img/marmer.png')"
       }
     },
   },

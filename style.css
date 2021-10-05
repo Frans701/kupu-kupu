@@ -48,8 +48,56 @@
 .top-4 {
     top: 1rem
 }
+.top-12 {
+    top: 3rem
+}
 .bottom-0 {
     bottom: 0px
+}
+.bottom-12 {
+    bottom: 3rem
+}
+.bottom-14 {
+    bottom: 3.5rem
+}
+.bottom-16 {
+    bottom: 4rem
+}
+.bottom-\[17\] {
+    bottom: 17
+}
+.bottom-\[17px\] {
+    bottom: 17px
+}
+.bottom-\[18px\] {
+    bottom: 18px
+}
+.bottom-\[100px\] {
+    bottom: 100px
+}
+.bottom-\[80px\] {
+    bottom: 80px
+}
+.bottom-\[79px\] {
+    bottom: 79px
+}
+.bottom-\[70px\] {
+    bottom: 70px
+}
+.bottom-\[72px\] {
+    bottom: 72px
+}
+.bottom-\[73px\] {
+    bottom: 73px
+}
+.bottom-\[74px\] {
+    bottom: 74px
+}
+.bottom-\[75px\] {
+    bottom: 75px
+}
+.bottom-\[76px\] {
+    bottom: 76px
 }
 .z-\[1\] {
     z-index: 1
@@ -65,6 +113,9 @@
 }
 .z-10 {
     z-index: 10
+}
+.z-20 {
+    z-index: 20
 }
 .m-10 {
     margin: 2.5rem
@@ -101,6 +152,9 @@
 .mt-10 {
     margin-top: 2.5rem
 }
+.mt-0 {
+    margin-top: 0px
+}
 .ml-10 {
     margin-left: 2.5rem
 }
@@ -109,6 +163,18 @@
 }
 .mt-1 {
     margin-top: 0.25rem
+}
+.mt-\[217px\] {
+    margin-top: 217px
+}
+.mt-\[83px\] {
+    margin-top: 83px
+}
+.mt-\[10px\] {
+    margin-top: 10px
+}
+.mt-\[48px\] {
+    margin-top: 48px
 }
 .mt-7 {
     margin-top: 1.75rem
@@ -125,50 +191,11 @@
 .mt-5 {
     margin-top: 1.25rem
 }
-.mt-\[217px\] {
-    margin-top: 217px
+.mt-3 {
+    margin-top: 0.75rem
 }
-.mt-\[93px\] {
-    margin-top: 93px
-}
-.mt-\[58px\] {
-    margin-top: 58px
-}
-.mt-\[20px\] {
-    margin-top: 20px
-}
-.mt-\[29px\] {
-    margin-top: 29px
-}
-.mt-\[19px\] {
-    margin-top: 19px
-}
-.mt-\[18px\] {
-    margin-top: 18px
-}
-.mt-\[10px\] {
-    margin-top: 10px
-}
-.mt-\[80px\] {
-    margin-top: 80px
-}
-.mt-\[81px\] {
-    margin-top: 81px
-}
-.mt-\[82px\] {
-    margin-top: 82px
-}
-.mt-\[83px\] {
-    margin-top: 83px
-}
-.mt-\[84px\] {
-    margin-top: 84px
-}
-.mt-\[38px\] {
-    margin-top: 38px
-}
-.mt-\[48px\] {
-    margin-top: 48px
+.mt-6 {
+    margin-top: 1.5rem
 }
 .box-border {
     box-sizing: border-box
@@ -185,6 +212,9 @@
 .table {
     display: table
 }
+.hidden {
+    display: none
+}
 .h-\[60px\] {
     height: 60px
 }
@@ -199,6 +229,9 @@
 }
 .h-\[220px\] {
     height: 220px
+}
+.h-\[379px\] {
+    height: 379px
 }
 .h-full {
     height: 100%
@@ -220,9 +253,6 @@
 }
 .h-\[30px\] {
     height: 30px
-}
-.h-\[379px\] {
-    height: 379px
 }
 .w-full {
     width: 100%
@@ -271,6 +301,21 @@
 }
 .w-\[50px\] {
     width: 50px
+}
+.w-\[10px\] {
+    width: 10px
+}
+.w-\[500px\] {
+    width: 500px
+}
+.w-\[400px\] {
+    width: 400px
+}
+.w-\[300px\] {
+    width: 300px
+}
+.w-\[350px\] {
+    width: 350px
 }
 .flex-auto {
     flex: 1 1 auto
@@ -369,6 +414,9 @@
 .bg-opacity-50 {
     --tw-bg-opacity: 0.5
 }
+.bg-marmer {
+    background-image: url('./img/marmer.png')
+}
 .bg-img-footer {
     background-image: url('./img/footer.png')
 }
@@ -394,13 +442,13 @@
 .p-8 {
     padding: 2rem
 }
-.py-12 {
-    padding-top: 3rem;
-    padding-bottom: 3rem
-}
 .py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem
+}
+.py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem
 }
 .py-20 {
     padding-top: 5rem;
@@ -422,6 +470,9 @@
     padding-left: 0.75rem;
     padding-right: 0.75rem
 }
+.pt-12 {
+    padding-top: 3rem
+}
 .pl-\[8px\] {
     padding-left: 8px
 }
@@ -430,9 +481,6 @@
 }
 .pr-\[120px\] {
     padding-right: 120px
-}
-.pt-12 {
-    padding-top: 3rem
 }
 .text-center {
     text-align: center
@@ -451,25 +499,13 @@
 .text-\[20px\] {
     font-size: 20px
 }
-.text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem
-}
-.text-xs {
-    font-size: 0.75rem;
-    line-height: 1rem
-}
-.text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem
-}
-.text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem
-}
 .text-base {
     font-size: 1rem;
     line-height: 1.5rem
+}
+.text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem
 }
 .font-semibold {
     font-weight: 600
