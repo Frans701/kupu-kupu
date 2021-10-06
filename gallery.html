@@ -43,7 +43,7 @@
                 <div class="flex justify-between">
                     <div>
                         <button
-                            class="border py-3 bg-gray-300 border-none font-semibold mx-auto w-[100px] duration-500 cursor-pointer sorts">Sort
+                            class="border py-3 bg-gray-300 border-none font-semibold mx-auto w-[100px] duration-500 cursor-pointer sorts z-10 relative">Sort
                             By
                             <div class="w-[12px] h-[12px] bg-black inline-block ml-1">
                             </div></button>
@@ -57,7 +57,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="w-[350px] bg-gray-300 p-7 absolute top-24 sort">
+                <div class="w-[350px] bg-gray-300 p-7 absolute top-24 sort z-10">
                     <div>
                         <div
                             class="border bg-gray-300 border-none font-semibold mx-auto duration-500 cursor-pointer mb-3">
@@ -132,9 +132,8 @@
                             </div>
                         </div>
                     </div>
-
-
                 </div>
+                <div class="overlay absolute top-0 bottom-0 right-0 left-0 z-0"></div>
                 <div class="flex justify-between mt-12 flex-wrap">
                     <img class="w-[300px] object-contain" src="img/Papilionidae.jpg" alt="">
                     <img class="w-[300px] object-contain" src="img/Papilionidae.jpg" alt="">
@@ -182,6 +181,7 @@
         const sorts = document.querySelector('.sorts');
         const sortss = document.querySelector('.sortss');
         const sortsss = document.querySelector('.sortsss');
+        const overlay = document.querySelector('.overlay');
         sort.style.display = 'none';
         sortsss.style.display = 'none';
 
@@ -192,6 +192,12 @@
         sortss.addEventListener('click', () =>{
             sortsss.style.display = 'block';
         });
+
+        overlay.addEventListener('click', () =>{
+            sort.style.display = 'none';
+        });
+
+
 
         
     </script>
