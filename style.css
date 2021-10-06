@@ -27,9 +27,6 @@
         max-width: 1536px
     }
 }
-.fixed {
-    position: fixed
-}
 .absolute {
     position: absolute
 }
@@ -80,9 +77,6 @@
 }
 .z-10 {
     z-index: 10
-}
-.z-50 {
-    z-index: 50
 }
 .z-0 {
     z-index: 0
@@ -173,6 +167,15 @@
 .mr-\[100px\] {
     margin-right: 100px
 }
+.mt-0 {
+    margin-top: 0px
+}
+.mt-6 {
+    margin-top: 1.5rem
+}
+.mt-8 {
+    margin-top: 2rem
+}
 .box-border {
     box-sizing: border-box
 }
@@ -233,6 +236,24 @@
 .h-\[12px\] {
     height: 12px
 }
+.h-\[300px\] {
+    height: 300px
+}
+.h-\[270px\] {
+    height: 270px
+}
+.h-\[180px\] {
+    height: 180px
+}
+.h-\[1900px\] {
+    height: 1900px
+}
+.h-\[190px\] {
+    height: 190px
+}
+.h-\[230px\] {
+    height: 230px
+}
 .w-full {
     width: 100%
 }
@@ -292,6 +313,48 @@
 }
 .w-\[300px\] {
     width: 300px
+}
+.w-\[500px\] {
+    width: 500px
+}
+.w-\[600px\] {
+    width: 600px
+}
+.w-\[800px\] {
+    width: 800px
+}
+.w-\[900px\] {
+    width: 900px
+}
+.w-\[950px\] {
+    width: 950px
+}
+.w-\[980px\] {
+    width: 980px
+}
+.w-\[970px\] {
+    width: 970px
+}
+.w-\[960px\] {
+    width: 960px
+}
+.w-\[400px\] {
+    width: 400px
+}
+.w-\[220px\] {
+    width: 220px
+}
+.w-\[250px\] {
+    width: 250px
+}
+.w-\[240px\] {
+    width: 240px
+}
+.w-\[955px\] {
+    width: 955px
+}
+.w-\[340px\] {
+    width: 340px
 }
 .flex-auto {
     flex: 1 1 auto
@@ -355,6 +418,9 @@
 .border-\[1px\] {
     border-width: 1px
 }
+.border-2 {
+    border-width: 2px
+}
 .border-solid {
     border-style: solid
 }
@@ -410,6 +476,10 @@
     -o-object-fit: contain;
        object-fit: contain
 }
+.object-cover {
+    -o-object-fit: cover;
+       object-fit: cover
+}
 .p-2 {
     padding: 0.5rem
 }
@@ -433,6 +503,9 @@
 }
 .p-7 {
     padding: 1.75rem
+}
+.p-4 {
+    padding: 1rem
 }
 .py-3 {
     padding-top: 0.75rem;
@@ -462,6 +535,10 @@
     padding-left: 0.75rem;
     padding-right: 0.75rem
 }
+.py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem
+}
 .pt-12 {
     padding-top: 3rem
 }
@@ -473,6 +550,9 @@
 }
 .pr-\[120px\] {
     padding-right: 120px
+}
+.pb-12 {
+    padding-bottom: 3rem
 }
 .text-center {
     text-align: center
@@ -497,6 +577,10 @@
 }
 .text-\[14px\] {
     font-size: 14px
+}
+.text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem
 }
 .font-semibold {
     font-weight: 600
@@ -545,5 +629,13 @@
 }
 .hover\:shadow-lg:hover {
     --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+.hover\:shadow-2xl:hover {
+    --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+.hover\:shadow-inner:hover {
+    --tw-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
 }
