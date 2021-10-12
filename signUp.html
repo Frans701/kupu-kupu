@@ -12,20 +12,97 @@
 
 <body>
     <!-- component -->
-    <div class="bg-grey-lighter min-h-screen flex flex-col font-sans">
+    <div class="bg-grey-lighter min-h-screen flex flex-col font-sans mt-12">
         <div class="container max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2">
             <div class="bg-white px-6 py-8 rounded shadow-xl text-black w-full">
                 <h1 class="mb-8 text-3xl text-center">Sign up</h1>
                 <input type="text" class="block border border-grey-light w-full p-3 rounded mb-4 box-border"
-                    name="fullname" placeholder="Full Name" />
-
-                <input type="text" class="block border border-grey-light w-full p-3 rounded mb-4 box-border"
-                    name="email" placeholder="Email" />
-
+                    name="email" placeholder="Email Address" />
                 <input type="password" class="block border border-grey-light w-full p-3 rounded mb-4 box-border"
                     name="password" placeholder="Password" />
                 <input type="password" class="block border border-grey-light w-full p-3 rounded mb-4 box-border"
                     name="confirm_password" placeholder="Confirm Password" />
+                <div class="mb-4">
+                    Shipping Address
+                </div>
+
+                <div class="container mx-auto">
+                    <div class="w-full rounded-lg box-border">
+                        <div class="flex justify-between">
+                        </div>
+                        <div onclick="papilionidae()"
+                            class="text-black no-underline block papilionidae cursor-pointer  mb-4">
+                            Domestic Japan
+                            <img src="img/segitiga.svg" alt="" class="ml-2 w-[14px] rotate-0 segitiga">
+                        </div>
+                        <div class="papilionidaes">
+                            <input type="password"
+                                class="block border border-grey-light w-full p-3 rounded mb-4 box-border"
+                                name="confirm_password" placeholder="Full name" />
+                            <input type="password"
+                                class="block border border-grey-light w-full p-3 rounded mb-4 box-border"
+                                name="confirm_password" placeholder="Portal Code" />
+                            <input type="password"
+                                class="block border border-grey-light w-full p-3 rounded mb-4 box-border"
+                                name="confirm_password" placeholder="Address 1" />
+                            <input type="password"
+                                class="block border border-grey-light w-full p-3 rounded mb-4 box-border"
+                                name="confirm_password" placeholder="Address 2" />
+                            <input type="password"
+                                class="block border border-grey-light w-full p-3 rounded mb-4 box-border"
+                                name="confirm_password" placeholder="City" />
+                            <input type="password"
+                                class="block border border-grey-light w-full p-3 rounded mb-4 box-border"
+                                name="confirm_password" placeholder="Prefecture" />
+                            <input type="password"
+                                class="block border border-grey-light w-full p-3 rounded mb-4 box-border"
+                                name="confirm_password" placeholder="Phone Number" />
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="container mx-auto">
+                    <div class="w-full rounded-lg box-border">
+                        <div class="flex justify-between">
+                        </div>
+                        <div onclick="international()"
+                            class="text-black no-underline block international cursor-pointer  mb-4">
+                            International Japan
+                            <img src="img/segitiga.svg" alt="" class="ml-2 w-[14px] rotate-0 segitiga2">
+                        </div>
+                        <div class="internationals">
+                            <input type="password"
+                                class="block border border-grey-light w-full p-3 rounded mb-4 box-border"
+                                name="confirm_password" placeholder="Full name" />
+                            <input type="password"
+                                class="block border border-grey-light w-full p-3 rounded mb-4 box-border"
+                                name="confirm_password" placeholder="Portal Code" />
+                            <input type="password"
+                                class="block border border-grey-light w-full p-3 rounded mb-4 box-border"
+                                name="confirm_password" placeholder="Address 1" />
+                            <input type="password"
+                                class="block border border-grey-light w-full p-3 rounded mb-4 box-border"
+                                name="confirm_password" placeholder="Address 2" />
+                            <input type="password"
+                                class="block border border-grey-light w-full p-3 rounded mb-4 box-border"
+                                name="confirm_password" placeholder="City" />
+                            <input type="password"
+                                class="block border border-grey-light w-full p-3 rounded mb-4 box-border"
+                                name="confirm_password" placeholder="Prefecture" />
+                            <input type="password"
+                                class="block border border-grey-light w-full p-3 rounded mb-4 box-border"
+                                name="confirm_password" placeholder="Phone Number" />
+                        </div>
+
+                    </div>
+                </div>
+                <div class="mb-4">
+                    *Please insert Phone number starting from your country code
+                </div>
+
+
+
 
                 <button type="submit" class="w-full text-center py-3 rounded bg-blue-500 border-none text-white">Create
                     Account</button>
@@ -41,6 +118,41 @@
 
         </div>
     </div>
+
+    <script>
+        const papilionidaes = document.querySelector('.papilionidaes');
+        papilionidaes.style.display = 'none';
+        const segitiga = document.querySelector('.segitiga');
+        segitiga.style.transform = 'rotate(0deg)';
+        // international cutomer
+        const internationals = document.querySelector('.internationals');
+        internationals.style.display = 'none';
+        const segitiga2 = document.querySelector('.segitiga2');
+        segitiga2.style.transform = 'rotate(0deg)';
+
+        function papilionidae() {
+            if (papilionidaes.style.display == 'none' && segitiga.style.transform == 'rotate(0deg)') {
+                papilionidaes.style.display = 'block';
+                segitiga.style.transform = 'rotate(180deg)';
+            } else {
+                papilionidaes.style.display = 'none';
+                segitiga.style.transform = 'rotate(0deg)';
+            }
+        }
+
+
+        // international customer
+        function international() {
+            if (internationals.style.display == 'none' && segitiga2.style.transform == 'rotate(0deg)') {
+                internationals.style.display = 'block';
+                segitiga2.style.transform = 'rotate(180deg)';
+            } else {
+                internationals.style.display = 'none';
+                segitiga2.style.transform = 'rotate(0deg)';
+            }
+        }
+
+    </script>
 </body>
 
 </html>
